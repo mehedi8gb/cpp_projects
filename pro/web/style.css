@@ -1,0 +1,24 @@
+.hading {
+    background-color: rgb(235, 235, 231);
+}
+
+.box-button {
+    border: solid rgb(174, 175, 177);
+    padding: 2px;
+    margin-left: 25%;
+
+}
+
+.margin {
+
+    border-radius: 20px;
+
+}
+
+.paddin {
+    padding-left: 15%;
+}
+
+.form-label {
+    padding-right: 10px;
+}
