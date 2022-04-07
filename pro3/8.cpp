@@ -3,8 +3,6 @@ using namespace std;
 
 int main()
 {
-
-
     int sz, j, p;
 
     cout << "Enter size of the array: ";

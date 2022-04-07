@@ -1,15 +1,20 @@
-#include<iostream>
+#include <iostream>
+#include <math.h>
 using namespace std;
 int main()
 {
- int i, count=0;
-   char str[50];
+  for (int i = 0; i < 300; i++)
+  {
+    for (int j = 2; j * j <= i; j++)
+    {
+      if (i % j == 0)
+        break;
+      else if (j + 1 > sqrt(i))
+      {
+        cout << i << endl;
+      }
+    }
+  }
 
-   cout << "Enter String Data: ";
- cin >> str;
- for(i=0; str[i]!='\0'; i++)
- {
- count++;
- }
- cout<<"Length of string: "<<count<<endl;
+  return 0;
 }

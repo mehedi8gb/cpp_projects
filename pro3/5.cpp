@@ -5,8 +5,8 @@ int main()
 {
     system("cls");
 
-    int a[12] = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4},
-        b[4] = {4, 3, 2, 1};
+    int a[6] = {1, 2, 3, 4,5,6},
+        b[4] = {7, 8, 9, 10};
 
     // array a
     int rows = sizeof(a) / sizeof(a[0]);
@@ -16,7 +16,7 @@ int main()
 
     int c[n];
 
-    cout << rows << " " << rowsB << "\n\n\n";
+    // cout << rows << " " << rowsB << "\n\n\n";
 
     for (int i = 0; i < n; i++)
     {
