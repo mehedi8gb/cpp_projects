@@ -10,7 +10,7 @@ using namespace std;
 class Figlet
 {
 private:
-    int n = 12, b = 11, d = 0, tColor = 7;
+    int n = 13, b = 11, d = 0, tColor = 7;
     string colorName; // n = char limit  b = width , d = height
 public:
     char text[100] = "mdmehedihasan";
@@ -87,6 +87,7 @@ public:
         cout << "\nEnter Alphabets within (" << n << ") charecters \t [note: now only work with 9 char's like m,d,h,d,a,f,i,l,e]\n:";
         string str;
         getline(cin, str);
+        memset(text, 0, n*sizeof(*text));
         strcpy(text, str.c_str());
     }
     void update()
