@@ -347,9 +347,9 @@ public:
         {
             cout << char(219);
             if (i < 8)
-                Sleep(180);
+                Sleep(150);
             if (i < 15 && i > 7)
-                Sleep(130);
+                Sleep(120);
             if (i < 20 && i > 25)
                 Sleep(90);
             if (i > 25)
